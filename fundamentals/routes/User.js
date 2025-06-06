@@ -15,3 +15,5 @@ router.put("/users",(req,res)=>{
 router.delete("/users",(req,res)=>{
     res.send({data:"User deleted:("});
 });
+
+module.exports = router;
